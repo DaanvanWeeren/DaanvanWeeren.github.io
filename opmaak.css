@@ -26,8 +26,10 @@ li a:hover {
 p{
     line-height: 1.8;
     text-align-last: justify;
+    text-decoration-thickness: auto;
 }
 
 h1{
     line-height: 2.8;
+    text-decoration-thickness: auto ;
 }
