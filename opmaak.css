@@ -23,10 +23,24 @@ li a:hover {
     color: black;
 }
 
-p{
-
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-h1{
-
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color: white;
+    min-width: 160xp;
 }
+
+.dropdown-content a{
+    color: black;
+    padding: 12xp 16xp;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a : hover {background-color: #ddd;}
+.dropwdon: hover .dropdown-content {display: block;}
