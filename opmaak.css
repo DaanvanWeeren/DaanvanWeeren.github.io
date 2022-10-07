@@ -23,25 +23,6 @@ li a:hover {
     color: black;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content{
-    display:none;
-    position: absolute;
-    background-color: white;
-    min-width: 160xp;
-}
-
-.dropdown-content a{
-    color: black;
-    padding: 12xp 16xp;
-    text-decoration: none;
-    display: block;
-}
-
 .third-level-menu
 {
     position: absolute;
@@ -57,9 +38,9 @@ li a:hover {
 .third-level-menu > li
 {
     height: 30px;
-    background: #999999;
+    background: black;
 }
-.third-level-menu > li:hover { background: #CCCCCC; }
+.third-level-menu > li:hover { background: white; }
 
 .second-level-menu
 {
@@ -77,9 +58,9 @@ li a:hover {
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    background: black;
 }
-.second-level-menu > li:hover { background: #CCCCCC; }
+.second-level-menu > li:hover { background: white; }
 
 .top-level-menu
 {
@@ -94,9 +75,9 @@ li a:hover {
     float: left;
     height: 30px;
     width: 150px;
-    background: #999999;
+    background: black;
 }
-.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu > li:hover { background: white; }
 
 .top-level-menu li:hover > ul
 {
