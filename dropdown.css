@@ -76,14 +76,3 @@
 }
 .top-level-menu a:hover { color: #000000; }
 
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #999999;
-}
-
-ul:hover{
-    display:inline;
-}
