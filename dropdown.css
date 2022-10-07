@@ -83,3 +83,7 @@ ul{
     overflow: hidden;
     background-color: #999999;
 }
+
+ul:hover{
+    display:inline;
+}
