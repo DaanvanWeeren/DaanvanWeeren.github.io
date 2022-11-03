@@ -89,3 +89,17 @@ footer
     padding: 0;
     color:#FFFFFF;
 }
+
+h1
+{
+    background-color: darkblue;
+    padding: 0;
+    color:#FFFFFF;
+}
+
+h2
+{
+    background-color: blue;
+    padding: 0;
+    color:#FFFFFF;
+}
