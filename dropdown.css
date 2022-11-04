@@ -9,7 +9,12 @@
     margin: 0;
     display: none;
 }
-
+/* Een padding zorgt er voor dat er een ruimte ontstaat om een bepaald item.
+Door de padding op nul te zetten maakt de lijst het zelf aan. Marging wordt gebruikt 
+voor de ruimte om een bepaald element. het heeft dus een beetje het zelfde effect als padding.
+Display zorgt er voor hoe een bepaalde inhoud wordt weer gegeven. Door een absolute postion te gebruiken
+zit de content zo dicht mogelijk bij de voor gaande content. In dit geval is dat er niet en gebruikt 
+het de body voor zijn positie. Position geeft dus aan hoe iets is gepositioneerd.*/
 .third-level-menu > li
 {
     height: 30px;
@@ -28,7 +33,7 @@
     margin: 0;
     display: none;
 }
-
+/*width geeft aan hoe wijd de ruimte om de content heen moet zijn.*/
 .second-level-menu > li
 {
     position: relative;
@@ -82,6 +87,11 @@ div
     padding: 0;
     color: black;
 }
+
+/* Background-color is gebruikt om de achtergrond van een bepaald element in te kleuren.
+Color is gebruikt om de tekst of content van zo een element een kleur te geven.
+Tekst-align zorgt ervoor hoe de tekst is gepositioneerd. In dit geval is center gebruikt omdat
+dit er goed uitziet.*/
 
 footer
 {
