@@ -2,14 +2,14 @@
 <html> <!--dit is het html element-->   
     <head>
         <title>Het eerste begin</title>
-        <link rel="stylesheet" type="text/css" href="dropdown.css">
+        <link rel="stylesheet" type="text/css" href="/dropdown.css">
         <meta charset="utf-8">
     </head>
     <body>
 
            <ul class="top-level-menu">
                 
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                  <li>
                     <a href="drielagensysteem.html">drielagensysteem</a>
                     <ul class="second-level-menu">
@@ -43,30 +43,40 @@
             <div>
                 <p>.</p>
 
-                <h1>sensoren</h1>
+                <h1>De fysiekelaag</h1>
 
                 <h2>Inleiding</h2>
 
+             <pre> 
+                De fysiekelaag bestaat uit al het hardware van een bepaald device.
+                Mooie voorbeelden van de fysiekelaag zijn het beeldscherm en het toetsenbord.
+                
+            </pre>
+            </div>
+
+            <div>
+                <h2>Kernapparatuur</h2>
+
                 <pre>
-                    Sensoren zijn nodig voor een device om informatie over de omgeving te verzamelen. Ze zorgen dus voor input. Een sensor moet dus een analoog 
-                    signaal kunnen omzetten in een digitaal signaal. Er zijn veel verschillende toepassingen van sensoren waarvan er een paar 
-                    behandeld zullen worden.
+                    Je kan hardware verdelen over rand- en Kernapparatuur. In dit paragraaf gaan we het hebben over kernapparatuur.
+                    De kern van een bepaald device bestaat uit een processor en een memory unit. De processor en de memory unit bestaan
+                    uit verschillende onderdelen. Lees hier meer over bij de hoofdstukken <a href="processor.html">processor</a> en <a href="geheugen.html">geheugen</a>.
                 </pre>
             </div>
 
             <div>
-                <h2>toespassingen</h2>
+                <h2>randapparatuur</h2>
 
                 <pre>
-                    Er zijn veel verschillende toepassingen van sensoren. In een smartphone heb je bijvoorbeeld een gyroscoop. 
-                    Deze kan bepalen in welke stand de telefoon zich bevind en zo dus ook in welke stand het scherm van de telefoon moet worden weergegeven.
-                    Ook de touchscreen op je telefoon is een voorbeeld van een sensor. Als er een kleine lading op het scherm wordt gedetecteerd ontstaat er
-                    een digitaal signaal. Aan de hand van waar dit signaal is ontstaan kan je telefoon bepalen welke app geopend moet worden.
-                    Voor wifi is bijvoorbeeld ook een sensor nodig. Bij wifi wordt namelijk informatie via radiogolven verstuurd en deze moeten weer kunnen
-                    worden omgezet in een digitaal signaal. 
+                    Alles wat niet onder de kernapparatuur valt hoort bij de randapparatuur. Deze randapparatuur kan voor verschillende
+                    dingen gebruikt worden. Zo heb je bijvoorbeeld <a href="sensoren.html">sensoren</a> en <a href="actuatoren.html">actuatoren</a>. Deze kunnen analoge 
+                    omzetten in digitale signalen en andersom. Ook moet het hardware kunnen worden aangestuurd door de toepassingenlaag.
+                    Dit gebeurt door middle van <a href="drivers.html">drivers</a>. Ook comminuceerd het hardware onderling met elkaar door
+                    gebruikt te maken van <a href="hardwareinterface.html">hardware-interfaces</a>.
                 </pre>
             </div>
 
             <footer>
                 <p>Daan van Weeren</p>
             </footer>
+

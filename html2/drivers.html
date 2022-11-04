@@ -2,14 +2,14 @@
 <html> <!--dit is het html element-->   
     <head>
         <title>Het eerste begin</title>
-        <link rel="stylesheet" type="text/css" href="dropdown.css">
+        <link rel="stylesheet" type="text/css" href="/dropdown.css">
         <meta charset="utf-8">
     </head>
     <body>
 
            <ul class="top-level-menu">
                 
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/index.html">Home</a></li>
                  <li>
                     <a href="drielagensysteem.html">drielagensysteem</a>
                     <ul class="second-level-menu">
@@ -43,26 +43,17 @@
             <div>
                 <p>.</p>
 
-                <h1>De toepassingenlaag</h1>
+                <h1>Drivers</h1>
 
-                <h2>inleiding</h2>
-
-                <pre>
-                    De toepassingenlaag bestaat eigenlijk vooral uit apps. Zo zijn whatsapp en instagram voorbeelden van 
-                    de toepassingenlaag. Daarnaast vindt er ook comminucatie plaats tussen de logischelaag en de toepassingenlaag
-                    via <a href="API.html">API's</a>.
-                </pre>
-            </div>
-
-            <div>
-                <h2>events</h2>
+                <h2>Uitleg</h2>
 
                 <pre>
-                    Stel je wilt een knop maken die je kan indrukken. Dan moet je deze knop eigenschappen geven zoals kleur.
-                    Het programmeren van deze knop is dan niet meer nodig, want dit wordt al gedaan door het operating system.
-                    Je hebt nog wel een events handler nodig voor het verwerken van een event. Voorbeelden van events zijn swipe, press 
-                    en zoom. In dit geval vindt het event press plaats. Als je dan op de knop drukt stuurt het operating system een signaal
-                    naar de app dat er op de knop is gedrukt en vervolgens wordt de event handler uitgevoerd.
+                    De logischelaag en fysiekelaag kunnen opzich niet met elkaar comminuceren. Hiervoor zijn drivers
+                    gemaakt. Via drivers kan een operating system signalen sturen naar een hardware component. 
+                    Drivers zijn dus erg belangrijk. Voor iedere soort hardware is wel een losse driver nodig. 
+                    Voor bijvoorbeeld een beeldscherm is een beeldscherm driver nodig. Een operating system beschikt
+                    dus over heel veel verschillende drivers. Als er voor een bepaald soort hardware geen driver beschiktbaar
+                    is moet er een update worden uitgevoerd zodat er een driver voor dat soort hardware beschikbaar is.
                 </pre>
             </div>
 
